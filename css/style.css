@@ -40,7 +40,7 @@ body {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
+    padding: 15px 20px;
     background: #4e73df;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -197,7 +197,15 @@ body {
     color: #f8f9fa !important;
 }
 
-/* [data-bs-theme="dark"] .for_bg_dark {
-    background-color: #1a1a2e9f !important ;
-    color: #f8f9fa !important;
-} */
+[data-bs-theme="dark"] .sidebar {
+    background: #1a1a2e !important;
+    color: #fff;
+}
+[data-bs-theme="dark"] .sidebar-header {
+    /* background: #16213e !important; */
+    background: #1a1a2e !important;
+
+    color: #fff;
+}
+
+
