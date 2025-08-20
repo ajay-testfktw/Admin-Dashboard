@@ -55,3 +55,4 @@ document.addEventListener('DOMContentLoaded', function() {
         return new bootstrap.Tooltip(tooltipTriggerEl);
     });
 });
+
